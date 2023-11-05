@@ -21,9 +21,9 @@ p,li,form{
   font-size: 2rem;
 }
 header{
-  max-width: 85vw;
+  max-width: 90vw;
   margin: 0 auto;
-  background: rgb(204, 144, 144);
+  background: rgb(168, 77, 77);
 }
 header >nav >ul {
   list-style: none;
@@ -45,6 +45,9 @@ header > nav > ul >li{
 
 header >nav > ul> li >a{
   text-decoration: none;
+}
+form input,form label{
+  display:block;
 }
 
 main{
