@@ -11,6 +11,42 @@ body {
   color: rgb(22, 20, 20);
   background-color: aqua;
 }
+h1{
+  font-size: 4.5rem;
+}
+h2{
+  font-size: 3.5rem;
+}
+p,li,form{
+  font-size: 2rem;
+}
+header{
+  max-width: 85vw;
+  margin: 0 auto;
+  background: rgb(204, 144, 144);
+}
+header >nav >ul {
+  list-style: none;
+}
+header > .logo {
+  float: left;
+}
+header > nav {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+header > nav > ul >li{
+  float:left;
+  padding-right: 1.5rem;
+}
+
+header >nav > ul> li >a{
+  text-decoration: none;
+}
+
 main{
   img
 }
