@@ -9,7 +9,8 @@ html{
 
 body {
   color: rgb(22, 20, 20);
-  background-color: aqua;
+  
+  background-color: rgba(168, 214, 214, 0.452);
 }
 h1{
   font-size: 4.5rem;
@@ -23,13 +24,15 @@ p,li,form{
 header{
   max-width: 90vw;
   margin: 0 auto;
-  background: rgb(168, 77, 77);
+  padding: 1rem;
+  background: rgba(168, 77, 77, 0.705);
 }
 header >nav >ul {
   list-style: none;
 }
 header > .logo {
   float: left;
+  font-weight: bold;
 }
 header > nav {
   float: right;
@@ -40,11 +43,41 @@ header > nav {
 
 header > nav > ul >li{
   float:left;
-  padding-right: 1.5rem;
+  padding-right: 1rem;
 }
 
 header >nav > ul> li >a{
   text-decoration: none;
+  color: rgba(0, 0, 0, 0.74);
+}
+main{
+  margin: 0 auto;
+  text-align: center;
+}
+main > .hero{
+  color: beige;
+  height: 80vh;
+  background-image:url(homefood.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+main > .hero > h1{
+  padding-top: 25vh 0;
+  margin: 1.5rem 0 4rem 0;
+  text-shadow: .1rem .1rem .3rem black;
+}
+main > .hero > p {
+  margin: 1.5rem 0 5rem 0;
+
+}
+main > .hero > button{
+  padding: 1 rem 2rem;
+  background-color: blue;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
 }
 form input,form label{
   display:block;
