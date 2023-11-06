@@ -3,31 +3,33 @@
   margin: 0;
   box-sizing: border-box;
 }
-html{
+html {
   font-size: 62.5%;
 }
 
 body {
   color: rgb(22, 20, 20);
-  
+
   background-color: rgba(168, 214, 214, 0.452);
 }
-h1{
+h1 {
   font-size: 4.5rem;
 }
-h2{
+h2 {
   font-size: 3.5rem;
 }
-p,li,form{
+p,
+li,
+form {
   font-size: 2rem;
 }
-header{
+header {
   max-width: 90vw;
   margin: 0 auto;
   padding: 1rem;
   background: rgba(168, 77, 77, 0.705);
 }
-header >nav >ul {
+header > nav > ul {
   list-style: none;
 }
 header > .logo {
@@ -41,48 +43,44 @@ header > nav {
   clear: both;
 }
 
-header > nav > ul >li{
-  float:left;
+header > nav > ul > li {
+  float: left;
   padding-right: 1rem;
 }
 
-header >nav > ul> li >a{
+header > nav > ul > li > a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.74);
 }
-main{
+main {
   margin: 0 auto;
   text-align: center;
 }
-main > .hero{
+main > .hero {
   color: beige;
   height: 80vh;
-  background-image:url(homefood.jpg);
+  background-image: url(homefood.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-main > .hero > h1{
+main > .hero > h1 {
   padding-top: 25vh 0;
   margin: 1.5rem 0 4rem 0;
-  text-shadow: .1rem .1rem .3rem black;
+  text-shadow: 0.1rem 0.1rem 0.3rem black;
 }
 main > .hero > p {
   margin: 1.5rem 0 5rem 0;
-
 }
-main > .hero > button{
-  padding: 1 rem 2rem;
-  background-color: blue;
+main > .hero > button {
+  padding: 1rem 2rem;
+  background-color: rgba(72, 168, 136, 0.473);
   border-radius: 1rem;
   border: none;
   cursor: pointer;
 }
-form input,form label{
-  display:block;
-}
-
-main{
-  img
+form input,
+form label {
+  display: block;
 }
