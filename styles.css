@@ -8,15 +8,17 @@ html {
 }
 
 body {
-  color: rgb(22, 20, 20);
+  color: rgba(167, 104, 141, 0.295);
 
-  background-color: rgba(168, 214, 214, 0.452);
+  background-color: rgba(247, 246, 246, 0.733);
 }
 h1 {
   font-size: 4.5rem;
+  color: beige;
 }
 h2 {
   font-size: 3.5rem;
+  color: aqua;
 }
 p,
 li,
@@ -24,10 +26,10 @@ form {
   font-size: 2rem;
 }
 header {
-  max-width: 90vw;
+  max-width: 100vw;
   margin: 0 auto;
-  padding: 1rem;
-  background: rgba(168, 77, 77, 0.705);
+  padding: 3rem;
+  background: rgba(77, 162, 168, 0.959);
 }
 header > nav > ul {
   list-style: none;
@@ -35,6 +37,7 @@ header > nav > ul {
 header > .logo {
   float: left;
   font-weight: bold;
+  color: black;
 }
 header > nav {
   float: right;
@@ -50,15 +53,15 @@ header > nav > ul > li {
 
 header > nav > ul > li > a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.74);
+  color: rgba(236, 228, 228, 0.74);
 }
 main {
   margin: 0 auto;
   text-align: center;
 }
 main > .hero {
-  color: beige;
-  height: 80vh;
+  color: rgb(17, 17, 6);
+  height: 90vh;
   background-image: url(homefood.jpg);
   background-position: center;
   background-size: cover;
@@ -66,21 +69,44 @@ main > .hero {
   background-attachment: fixed;
 }
 main > .hero > h1 {
-  padding-top: 25vh 0;
-  margin: 1.5rem 0 4rem 0;
+  padding-top: 10vh 0;
+  margin: 0 4rem 0;
   text-shadow: 0.1rem 0.1rem 0.3rem black;
 }
 main > .hero > p {
-  margin: 1.5rem 0 5rem 0;
+  margin: 20rem 0 5rem 0;
+  color: white;
+  font-weight: bold;
 }
 main > .hero > button {
-  padding: 1rem 2rem;
-  background-color: rgba(72, 168, 136, 0.473);
+  padding: 1rem 1rem;
+  background-color: rgba(235, 37, 159, 0.473);
   border-radius: 1rem;
   border: none;
+  width: 20vw;
   cursor: pointer;
+}
+main > .contact > h2 {
+  margin-top: 5rem;
 }
 form input,
 form label {
   display: block;
+  margin: 0 auto;
+  margin: 1rem auto 1rem;
+}
+main > .contact > form > button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: #b6768479;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  margin-top: 9rem;
+  padding: 1rem;
+  background-color: blueviolet;
+  color: aquamarine;
+  text-align: center;
 }
