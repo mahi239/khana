@@ -38,6 +38,7 @@ header > .logo {
   float: left;
   font-weight: bold;
   color: black;
+  cursor: pointer;
 }
 header > nav {
   float: right;
